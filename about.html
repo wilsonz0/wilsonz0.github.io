@@ -9,19 +9,30 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    
+
     <div id="display">
-        Lorem Ipsum
+        <div id="intro" class="hidden">
+            This is the introduction section
+        </div>
+        <div id="resume" class="hidden">
+            This is the resume section
+        </div>
+        <div id="contact" class="hidden">
+            This is the contact section
+        </div>
     </div>
 
     <div id="sidebar">
         <h1>About Me</h1>
-        
         <img id="topAngle" src="./blankAngle.png"/>
+
         <div id="content">
-            <p>Introduction</p>
-            <p>Resume</p>
-            <p>Contact</p>
+            <button id="introBTN">Introduction</button>
+            <button id="resumeBTN">Resume</button>
+            <button id="contactBTN">Contact</button>
         </div>
+
         <img id="bottomAngle" src="./blankAngle.png"/>
     </div>
 
@@ -29,5 +40,7 @@
         <a href="index.html">Home</a> 
         <p>&rarr;</p> 
     </div>
+
+    <script src="script.js"></script>    
 </body>
 </html>
