@@ -6,10 +6,6 @@ document.getElementById('introBTN').addEventListener("click", function() {
     toggleContent("introBTN", "intro")
 });
 
-document.getElementById('resumeBTN').addEventListener("click", function() {
-    toggleContent("resumeBTN", "resume")
-});
-
 document.getElementById('contactBTN').addEventListener("click", function() {
     toggleContent("contactBTN", "contact")
 });
