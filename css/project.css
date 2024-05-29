@@ -1,0 +1,40 @@
+/******************* 
+    Project Page 
+*******************/
+.sticky {
+  position: sticky;
+}
+
+#projectList {
+  background: #FFF8DC;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 28.7%);
+  gap: 25px;
+  justify-content: center;
+  position: relative;
+}
+
+#projectList div {
+  background: #eeaf61;
+  /* border: 2px solid #f06a11; */
+  box-shadow: 2px 3px 0 #e86710, 3px 5px 7px #e66510;
+  padding: 15px;
+}
+
+#projectList img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  object-position: 0 15%;
+  left: 0px;
+}
+
+.projectTitle {
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.description {
+  padding: 5px;
+}

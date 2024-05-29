@@ -1,0 +1,114 @@
+/********************* 
+    About Page 
+*********************/
+body {
+  background: #FFF8DC;
+}
+
+#aboutContent {
+  padding: 10px;
+}
+
+#display {
+  box-sizing: border-box;
+  display: flex;
+  position: absolute;
+  left: 6%;
+  height: 80%;
+  width: 50%;
+  background: #eeaf61;
+  padding: 60px 70px;
+  top: 10%;
+}
+
+#intro, #contact {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+#skillSection {
+  margin-top: 7%;
+}
+
+#skillSection h3 {
+  margin: 10px;
+}
+
+#skillSection span {
+  box-sizing: content-box;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 3px;
+  /* background: #FF7011; */
+  background: #20C997;
+}
+
+#contact {
+  height: fit-content;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#contact img {
+  height: 4vh;
+}
+
+#contact a {
+  text-decoration: none;
+  color: black;
+}
+
+#contact div {
+  padding: 50px;
+  font-size: 20px;
+}
+
+/* About Page: id=sidebar */
+#sidebar {
+  position: absolute;
+  right: 6%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 34%;
+  height: 80%;
+  color:white;
+}
+
+#content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#content button {
+  background-color: transparent;
+  color: #eeaf61;
+  font-size: 35px;
+  font-weight: 700;
+  outline: none;
+  border: none;
+}
+
+#topAngle {
+  position: absolute;
+  left: -18px;
+  top: -18px;
+}
+
+#bottomAngle {
+  position: absolute;
+  right: -18px;
+  bottom: -17px;
+  transform: rotate(180deg);
+  z-index: -1;
+}
