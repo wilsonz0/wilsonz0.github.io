@@ -6,7 +6,7 @@
 }
 
 #projectList {
-  background: #FFF8DC;
+  background: #fffae4;
   padding: 15px;
   display: grid;
   grid-template-columns: repeat(3, 28.7%);
@@ -16,9 +16,8 @@
 }
 
 #projectList div {
-  background: #eeaf61;
-  /* border: 2px solid #f06a11; */
-  box-shadow: 2px 3px 0 #e86710, 3px 5px 7px #e66510;
+  background: #ffc47d;
+  box-shadow: 2px 3px 0 #ed6d18, 3px 5px 7px #e66510;
   padding: 15px;
 }
 
