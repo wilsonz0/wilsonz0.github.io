@@ -36,11 +36,17 @@ body {
   margin: 10px;
 }
 
-#skillSection span {
+#skillList {
+  display: flex; 
+  justify-content: center; 
+  flex-wrap: wrap;
+}
+
+#skillList span {
   box-sizing: content-box;
   border-radius: 25px;
-  padding: 5px;
-  margin: 3px;
+  padding: 5px 12px;
+  margin: 5px 1px;
   /* background: #FF7011; */
   background: #20C997;
 }
