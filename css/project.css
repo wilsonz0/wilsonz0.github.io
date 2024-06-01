@@ -15,10 +15,24 @@
   position: relative;
 }
 
-#projectList div {
+#projectList > div {
   background: #ffc47d;
   box-shadow: 2px 3px 0 #ed6d18, 3px 5px 7px #e66510;
   padding: 15px;
+}
+
+#skillList {
+  display: flex; 
+  flex-wrap: wrap;
+}
+
+#skillList span {
+  background: #20C997;
+  box-sizing: content-box;
+  border-radius: 20px;
+  padding: 3px 6px;
+  margin: 0px 2px;
+  font-size: 15px;
 }
 
 #projectList img {
