@@ -1,11 +1,11 @@
 /********************* 
     About Page 
 *********************/
-body {
-  background: #fffae4;
-}
 
 #aboutContent {
+  background: #fff9de;
+  /* background: rgb(255, 87, 115); */
+  height: 100%;
   padding: 10px;
 }
 
