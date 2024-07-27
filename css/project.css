@@ -1,6 +1,10 @@
 /******************* 
     Project Page 
 *******************/
+body {
+  overflow: hidden;
+}
+
 .sticky {
   position: sticky;
 }
@@ -12,6 +16,8 @@
   gap: 32px;
   justify-content: center;
   position: relative;
+  height: 79.5%;
+  overflow-y: auto; 
 }
 
 #projectList > div {
